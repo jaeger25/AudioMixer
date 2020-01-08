@@ -1,0 +1,12 @@
+import "AudioEndpoint.idl";
+
+namespace FourShot.Audio
+{
+    [default_interface]
+    runtimeclass AudioMixer 
+    {
+        AudioMixer();
+
+        void Start(AudioEndpoint sourceEndpoint, AudioEndpoint targetEndpoint);
+    }
+}

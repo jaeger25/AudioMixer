@@ -1,0 +1,12 @@
+import "AudioEndpoint.idl";
+
+namespace FourShot.Audio
+{
+    [default_interface]
+    runtimeclass AudioEndpointManager 
+    {
+        AudioEndpointManager();
+
+        IVectorView<AudioEndpoint> Endpoints{ get; };
+    }
+}

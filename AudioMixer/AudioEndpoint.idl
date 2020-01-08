@@ -1,0 +1,8 @@
+namespace FourShot.Audio
+{
+    [default_interface]
+    runtimeclass AudioEndpoint
+    {
+        String Name { get; };
+    }
+}
